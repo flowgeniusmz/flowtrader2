@@ -6,9 +6,12 @@ datetime                   # Handling date and time operations.
 eodhd                      # EOD Historical Data API wrapper for global financial markets data.
 finvizfinance              # Package for scraping and analyzing financial data from Finviz.
 goose3                     # Web scraping library for extracting clean text from web articles.
+h5py                       # Reading and writing HDF5 files.
+html5lib                   # Parsing and writing HTML and XHTML documents.
 googlesearch-python        # Performing Google searches programmatically.
 IPython                    # Interactive Python shell for exploratory coding.
 joblib                     # Efficient computation for model training and pipelines.
+Keras                      # High-level neural network library.
 matplotlib                 # Plotting library for creating static and interactive visualizations.
 nest-asyncio               # Allows running asyncio event loops nested within one another.
 newsapi-python             # Python wrapper for the News API to retrieve news and headlines.
@@ -28,5 +31,6 @@ supabase                   # Python client for interacting with Supabase backend
 ta                         # Technical analysis library for financial time series data (e.g., indicators).
 tavily-python              # Python client library for Tavily AI-driven APIs.
 tensorflow                 # Machine learning and neural network library.
+tensorflow-cpu             # CPU-only version of TensorFlow for lightweight systems.
 transformers               # Hugging Face library for state-of-the-art NLP models such as BERT, GPT, and others.
 yfinance                   # Yahoo Finance API wrapper for retrieving stock market data.
