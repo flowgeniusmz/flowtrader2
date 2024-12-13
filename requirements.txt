@@ -1,0 +1,32 @@
+altair                     # Visualization library, used for interactive charts.
+asyncio                    # Library to write concurrent code using the async/await syntax.
+Backtesting                # Backtesting library for financial trading strategies.
+beautifulsoup4             # Library for parsing HTML and XML documents (for web scraping).
+datetime                   # Handling date and time operations.
+eodhd                      # EOD Historical Data API wrapper for global financial markets data.
+finvizfinance              # Package for scraping and analyzing financial data from Finviz.
+goose3                     # Web scraping library for extracting clean text from web articles.
+googlesearch-python        # Performing Google searches programmatically.
+IPython                    # Interactive Python shell for exploratory coding.
+joblib                     # Efficient computation for model training and pipelines.
+matplotlib                 # Plotting library for creating static and interactive visualizations.
+nest-asyncio               # Allows running asyncio event loops nested within one another.
+newsapi-python             # Python wrapper for the News API to retrieve news and headlines.
+numpy                      # Library for numerical operations and multi-dimensional arrays.
+openai                     # OpenAI's API for integrating GPT models and other AI functionalities.
+pandas                     # Data manipulation and analysis library, especially for handling datasets.
+pandas-ta                  # Technical analysis indicators and signals using pandas.
+pillow                     # Library for image processing and manipulation.
+plotly                     # Interactive graphing library that makes it easy to create visualizations.
+pydantic                   # Data validation and settings management using Python type hints.
+requests                   # Library for making HTTP requests to APIs or web pages.
+scikit-learn               # Machine learning library for data mining and data analysis.
+scipy                      # Library for mathematics, science, and engineering computations.
+streamlit                  # Web-based app framework for creating data-driven applications.
+streamlit-extras
+supabase                   # Python client for interacting with Supabase backend services.
+ta                         # Technical analysis library for financial time series data (e.g., indicators).
+tavily-python              # Python client library for Tavily AI-driven APIs.
+tensorflow                 # Machine learning and neural network library.
+transformers               # Hugging Face library for state-of-the-art NLP models such as BERT, GPT, and others.
+yfinance                   # Yahoo Finance API wrapper for retrieving stock market data.

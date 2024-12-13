@@ -1,0 +1,105 @@
+alpaca-py                  # Alpaca API wrapper for stock trading and financial services platform.
+alpaca-trade-api           # Advanced Alpaca API wrapper for algorithmic trading.
+altair                     # Visualization library, used for interactive charts.
+asyncio                    # Library to write concurrent code using the async/await syntax.
+attrs                      # For handling attribute definitions and data classes.
+Backtesting                # Backtesting library for financial trading strategies.
+beautifulsoup4             # Library for parsing HTML and XML documents (for web scraping).
+blinker                    # Provides support for signaling in the app.
+cachetools                 # Utilities for caching and performance improvements.
+certifi                    # SSL certificate validation for secure web requests.
+charset-normalizer         # Encoding detection for HTTP requests.
+click                      # Command-line interface creation for script utilities.
+colorama                   # Cross-platform terminal text formatting.
+datasets                   # Hugging Face's library for handling datasets for machine learning and data analysis.
+datetime                   # Handling date and time operations.
+eodhd                      # EOD Historical Data API wrapper for global financial markets data.
+finvizfinance              # Package for scraping and analyzing financial data from Finviz.
+fpdf2                      # Creating PDF documents programmatically.
+gitdb                      # Backend database layer for GitPython.
+GitPython                  # Interacting with Git repositories programmatically.
+goose3                     # Web scraping library for extracting clean text from web articles.
+googlesearch-python        # Performing Google searches programmatically.
+greenlet                   # Lightweight concurrency for Python.
+gym                        # Toolkit for developing and comparing reinforcement learning algorithms.
+gym-anytrading             # Environment for training/evaluating trading algorithms with reinforcement learning.
+gTTS                       # Generating text-to-speech audio files.
+h5py                       # Reading and writing HDF5 files.
+hmmlearn                   # Hidden Markov models for machine learning tasks.
+html5lib                   # Parsing and writing HTML and XHTML documents.
+idna                       # Internationalized Domain Names handling.
+IPython                    # Interactive Python shell for exploratory coding.
+Jinja2                     # Template engine for generating dynamic content.
+joblib                     # Efficient computation for model training and pipelines.
+jsonschema                 # Validating JSON data structures.
+jsonschema-specifications  # Reference definitions for JSON schema.
+Keras                      # High-level neural network library.
+Markdown-it-python         # Markdown processing library.
+MarkupSafe                 # Prevent injection attacks in Jinja2 templates.
+matplotlib                 # Plotting library for creating static and interactive visualizations.
+mdurl                      # URL manipulation utilities for markdown parsing.
+mplfinance                 # Plotting library for financial data using candlestick charts.
+mwclient                   # MediaWiki client library for interacting with MediaWiki-based sites.
+mwparserfromhell           # Library for parsing and working with wikitext (used in MediaWiki projects).
+nest-asyncio               # Allows running asyncio event loops nested within one another.
+newsapi-python             # Python wrapper for the News API to retrieve news and headlines.
+nltk                       # Natural language processing and text analysis.
+numpy                      # Library for numerical operations and multi-dimensional arrays.
+openai                     # OpenAI's API for integrating GPT models and other AI functionalities.
+openpyxl                   # Working with Excel files (.xlsx).
+packaging                  # Managing package dependencies and versioning.
+pandas                     # Data manipulation and analysis library, especially for handling datasets.
+pandas-datareader          # Fetching financial data from external APIs.
+pandas-ta                  # Technical analysis indicators and signals using pandas.
+pillow                     # Library for image processing and manipulation.
+plotly                     # Interactive graphing library that makes it easy to create visualizations.
+polars                     # High-performance DataFrame library.
+prophet                    # Forecasting library for time-series data.
+protobuf                   # Protocol buffer support for API data structures.
+pyarrow                    # High-performance columnar data formats.
+pydeck                     # 3D visualization tool for geographical data.
+Pygments                   # Syntax highlighting for code snippets.
+PyDictionary               # Fetching word meanings and synonyms.
+PyPDF2                     # Working with PDF files programmatically.
+pydantic                   # Data validation and settings management using Python type hints.
+python-dateutil            # Parsing and formatting date and time strings.
+python-docx                # Manipulating Word documents programmatically.
+pytz                       # Handling timezone information.
+pyttsx3                    # Offline text-to-speech conversion.
+pyzt                       # Handling time zones and datetime conversion.
+random-user-agent          # Generating random user-agent strings.
+referencing                # Referencing capabilities for JSON schema validation.
+requests                   # Library for making HTTP requests to APIs or web pages.
+rich                       # Enhanced text formatting and console output.
+rpds-py                    # Rust-based data structures for Python.
+scikit-learn               # Machine learning library for data mining and data analysis.
+scipy                      # Library for mathematics, science, and engineering computations.
+setuptools                 # Library for building and distributing Python packages.
+six                        # Python 2 and 3 compatibility utilities.
+smap                       # Signal analysis library.
+SQLAlchemy                 # Database ORM for interacting with SQL databases.
+statsmodels                # Statistical models and tests for analysis.
+streamlit                  # Web-based app framework for creating data-driven applications.
+streamlit-extras
+supabase                   # Python client for interacting with Supabase backend services.
+ta                         # Technical analysis library for financial time series data (e.g., indicators).
+tavily-python              # Python client library for Tavily AI-driven APIs.
+tenacity                   # Retrying strategies for resilient code.
+tensorflow                 # Machine learning and neural network library.
+tensorflow-cpu             # CPU-only version of TensorFlow for lightweight systems.
+threadpoolctl              # Threadpool management for parallel processing.
+tiktoken                   # OpenAI's library for managing and tokenizing text for large language models.
+toml                       # Reading and writing TOML configuration files.
+toolz                      # Functional programming utilities.
+torch                      # PyTorch deep learning library for building and training neural networks.
+tornado                    # Asynchronous networking library.
+tqdm                       # Library for adding progress bars to Python loops.
+transformers               # Hugging Face library for state-of-the-art NLP models such as BERT, GPT, and others.
+typing_extensions          # Additional type hints for older Python versions.
+tzdata                     # Timezone database for time zone-related calculations.
+urllib3                    # Advanced HTTP request management.
+user-agents                # Detecting user agent strings.
+vaderSentiment             # Sentiment analysis for textual data.
+watchdog                   # Monitoring file system changes.
+Xlsxwriter                 # Creating and formatting Excel files programmatically.
+yfinance                   # Yahoo Finance API wrapper for retrieving stock market data.
