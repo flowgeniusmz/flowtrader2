@@ -1,0 +1,26 @@
+[client]
+showSidebarNavigation = true
+
+[server]
+maxUploadSize = 1000
+
+[theme]
+primaryColor="#0096D7"                # Flow Blue (same as before)
+backgroundColor="#FFFFFF"             # White (same as before)
+secondaryBackgroundColor="#005EAA"    # Intermediate Blue-Green (same as before)
+#secondaryBackgroundColor="#B3E5D7"    # Light Intermediate Color (commented out as before)
+textColor="#31333F"                   # Dark Gray (same as before)
+font="sans serif"                     # Modern sans-serif font (same as before)
+
+# New colors from the logo:
+# Teal from the bars
+tealAccent="#00C4CC"
+
+# Light Blue from the waves
+lightBlueAccent="#0096D7"
+
+# Dark Blue for contrast
+darkBlueAccent="#005EAA"
+
+# Light Gray for subtle backgrounds
+lightGray="#F1F1F1"

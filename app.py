@@ -1,8 +1,26 @@
 import streamlit as st
-from config import pagesetup as ps
 
-# 1. Set Page Config
-st.set_page_config(page_title="FlowTrader", page_icon="assets/images/flowtrader_icon1.png", layout="wide", initial_sidebar_state="collapsed")
+# 1. Config
+#### 1A. Set Page Config
+st.set_page_config(page_title="FlowTrader", page_icon="assets/images/flowtrader_main1_icon.jpg", layout="wide", initial_sidebar_state="collapsed")
 
-# 2. Set Page Header
-ps.set_header(title="FlowTrader", subtitle="Home", divider=True)
+#### 1B. Set Logo
+image_path = "assets/images/flowtrader_main1.jpg"
+icon_path = "assets/images/flowtrader_main1_icon.jpg"
+logo = st.logo(image=image_path, size="large", icon_image=icon_path)
+
+# 2. Pages
+#### 2A. Set Individual pages
+page_home = st.Page(page="app/home.py", title="Home", url_path="/welcome", default=True)
+page_2 = st.Page(page="app/page2.py", title="Page2", url_path="/page2")
+
+#### 2B. Set Page Lists
+pages = [page_home, page_2]
+
+# 3. Navigation
+#### 3A. Set Navigation
+nav = st.navigation(pages=pages)
+
+#### 3B. Run Navigation
+nav.run()
+
