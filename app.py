@@ -13,7 +13,7 @@ logo = st.logo(image=image_path, size="large", icon_image=icon_path)
 #### 2A. Set Individual pages
 page_home = st.Page(page="app/home.py", title="Home", url_path="/welcome", default=True)
 page_stock_data = st.Page(page="app/stock_data.py", title="Stock Data", url_path="/stockdata")
-page_trade = st.Page(page="app/trade.py", title="Trade", url_path="/trade")
+page_trade = st.Page(page="trade.py", title="Trade", url_path="/trade")
 
 #### 2B. Set Page Lists
 pages = [page_home, page_stock_data, page_trade]

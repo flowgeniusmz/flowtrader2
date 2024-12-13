@@ -30,7 +30,7 @@ streamlit-extras
 supabase                   # Python client for interacting with Supabase backend services.
 ta                         # Technical analysis library for financial time series data (e.g., indicators).
 tavily-python              # Python client library for Tavily AI-driven APIs.
-tensorflow                 # Machine learning and neural network library.
-tensorflow-cpu             # CPU-only version of TensorFlow for lightweight systems.
+tensorflow==2.16.1                 # Machine learning and neural network library.
+tensorflow-cpu== 2.16.1            # CPU-only version of TensorFlow for lightweight systems.
 transformers               # Hugging Face library for state-of-the-art NLP models such as BERT, GPT, and others.
 yfinance                   # Yahoo Finance API wrapper for retrieving stock market data.

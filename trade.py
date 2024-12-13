@@ -2,12 +2,13 @@ from utilities.data_sourcing import Data_Sourcing, data_update
 from utilities.indicator_analysis import Indications
 from utilities.graph import Visualization
 import tensorflow as tf
+import keras
 from tensorflow.python.keras.models import load_model
 import streamlit as st 
 import gc
 
 gc.collect()
-#data_update()
+data_update()
 
 def main(app_data):
     st.set_page_config(layout = "wide")
