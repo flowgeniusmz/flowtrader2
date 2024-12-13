@@ -12,10 +12,10 @@ logo = st.logo(image=image_path, size="large", icon_image=icon_path)
 # 2. Pages
 #### 2A. Set Individual pages
 page_home = st.Page(page="app/home.py", title="Home", url_path="/welcome", default=True)
-page_2 = st.Page(page="app/page2.py", title="Page2", url_path="/page2")
+page_stock_data = st.Page(page="app/stock_data.py", title="Stock Data", url_path="/stockdata")
 
 #### 2B. Set Page Lists
-pages = [page_home, page_2]
+pages = [page_home, page_stock_data]
 
 # 3. Navigation
 #### 3A. Set Navigation
