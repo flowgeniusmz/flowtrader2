@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import yfinance as yf
 import pandas as pd
 import time
-import pandas_ta as pta
+
 
 # 1. Set Page Header
 title = "FlowTrader"
@@ -26,4 +26,3 @@ st.header("Select a stock")
 ticker_selection = st.selectbox(label="Stock Ticker", options=tickers1, index=0, key="selected_ticker")
 if ticker_selection:
     st.markdown(f"Selected {ticker_selection}")
-    
